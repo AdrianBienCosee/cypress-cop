@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.todo-item {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.todo-form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.todo-form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.add-todo {
+  margin: 1rem;
+}
+
+button {
+  margin: 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 3rem;
+}
+
+
+
